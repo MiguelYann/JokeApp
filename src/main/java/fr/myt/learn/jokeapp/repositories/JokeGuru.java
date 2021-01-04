@@ -1,7 +1,9 @@
 package fr.myt.learn.jokeapp.repositories;
 
-import guru.springframework.norris.chuck.ChuckNorrisQuotes;
+import org.springframework.stereotype.Repository;
 
+import guru.springframework.norris.chuck.ChuckNorrisQuotes;
+@Repository
 public class JokeGuru implements JokeRepository {
 
   private final ChuckNorrisQuotes chuckNorrisQuotes;
